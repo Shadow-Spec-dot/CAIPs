@@ -190,7 +190,7 @@ An example of a successful response follows:
         "references": ["1", "137"],
         "methods": ["eth_sendTransaction", "eth_signTransaction", "get_balance", "eth_sign", "personal_sign"]
         "notifications": ["accountsChanged", "chainChanged"],
-        "accounts": ["eip155:1:0xab16a96d359ec26a11e2c2b3d8f8b8942d5bfcdb", "eip155:137:0xab16a96d359ec26a11e2c2b3d8f8b8942d5bfcdb"]
+        "accounts": ["eip155:1:0x8bcfc12c7d9007dda05770170bd247974ce63ed7", "eip155:137:0x8bcfc12c7d9007dda05770170bd247974ce63ed7"]
       },
       "eip155:10": {
         "methods": ["get_balance"],
@@ -200,7 +200,7 @@ An example of a successful response follows:
       "eip155:42161": {
         "methods": ["personal_sign"],
         "notifications": ["accountsChanged", "chainChanged"],
-        "accounts":["eip155:42161:0x0910e12C68d02B561a34569E1367c9AAb42bd810"],
+        "accounts":["eip155:42161:0x8bcfc12c7d9007dda05770170bd247974ce63ed7"],
         "rpcDocuments": "https://example.com/wallet_extension.json"
       },
       "eip155:0": {
